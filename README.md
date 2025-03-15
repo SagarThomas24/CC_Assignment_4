@@ -17,7 +17,7 @@ This project provisions a simple cloud infrastructure using **Terraform** on **A
 ## Project Structure
 
 ```
-terraform_project/
+IAC/
 │── provider.tf          # AWS provider configuration
 │── main.tf              # EC2 instance configuration
 │── security.tf          # Security group rules
