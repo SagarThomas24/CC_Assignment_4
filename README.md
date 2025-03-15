@@ -68,8 +68,7 @@ This will create the EC2 instance, S3 bucket, and security group.
 - Go to AWS Console → EC2 → Security Groups.
 - Ensure **Inbound Rules** allow:
   - **Port 80 (HTTP)** → Open to `0.0.0.0/0`
-  - **Port 22 (SSH)** → Restricted to your IP (`YOUR.IP.ADDRESS/32`)
-
+  - 
 ## Cleanup (Destroy Resources)
 
 To avoid unnecessary charges, delete all resources:
